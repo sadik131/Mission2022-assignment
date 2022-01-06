@@ -1,0 +1,100 @@
+ body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+ }
+.parent{
+    display: flex;
+}
+h1{
+    font-size: 45px;
+}
+.color-of-heading{
+    color: coral;
+}
+span{
+    color: rgba(255, 123, 255, 1);
+}
+.line{
+    max-height: 150px;
+    width: 8px;
+    background-color: rgb(226, 169, 226);
+    display: inline-block;
+    margin-top:110px;
+    margin-left:40px;
+}
+.btn{
+    font-weight: bold;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(150, 149, 180) 0%, rgba(19,219,197,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: black;
+}
+.content{
+    width: 40%;
+    margin-left: 55px;
+    margin-top: 70px;
+}
+.content img{
+    height: 500px;
+    width: 500px;
+}
+/*-------- Mission part ---------*/
+
+.mission h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    
+
+}
+.colum-1{
+    width: 350px;
+    height: auto;
+    border: 2px solid white;
+    background-color: rgba(19,219,197,1);
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 50px;
+    justify-content: center;
+}
+.colum-1 img{
+    width :200px;
+}
+.colum-1 p{
+    text-align: center;
+}
+#colum-2{
+    background-color: blanchedalmond;
+}
+#colum-3{
+    background-color: rgb(196, 222, 135);
+}
+/*know about */
+
+.Know-about img{
+    height: 400px;
+}
+
+/*build a new template*/
+
+.josep img{
+    height: 250px;
+    width: 250px;
+}
+.josep h1{
+    color: yellowgreen;
+    text-align: center;
+}
+
+/*footer*/
+
+.footer{
+    text-align: center;
+    background-color: rgb(21, 21, 37);
+    color: white;
+    font-family: 'Vujahday Script', cursive;
+}
+
+
